@@ -1,0 +1,8 @@
+[{
+  "path": "GET /admin/",
+  "handler": "require:./lib/admin/"
+},
+{
+  "path": "GET /admin/meta/dependencies",
+  "handler": "require:./meta/dependencies"
+}]

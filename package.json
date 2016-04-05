@@ -1,0 +1,44 @@
+{
+  "name": "server-plus",
+  "version": "0.1.0",
+  "description": "Sub Module to monitor and report status of the server running in port.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RameshRM/serverPlus.git"
+  },
+  "keywords": [
+    "Sub",
+    "Module",
+    "to",
+    "monitor",
+    "and",
+    "report",
+    "status",
+    "of",
+    "the",
+    "server",
+    "running",
+    "in",
+    "port."
+  ],
+  "author": "rameshrm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RameshRM/serverPlus/issues"
+  },
+  "homepage": "https://github.com/RameshRM/serverPlus#readme",
+  "devDependencies": {
+    "express": "^4.13.4",
+    "istanbul": "^0.4.2",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "meta-router": "^3.0.2"
+  }
+}
